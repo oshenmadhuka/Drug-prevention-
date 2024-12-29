@@ -326,10 +326,10 @@ def main():
         screen.blit(model.arrest_icon, (WINDOW_WIDTH - SIDEBAR_WIDTH + 25, 550))
         
         # Icon labels
-        citizen_label = label_font.render("Citizen Agent", True, (0, 0, 0))
+        citizen_label = label_font.render("Citizen", True, (0, 0, 0))
         dealer_label = label_font.render("Dealer", True, (0, 0, 0))
-        police_label = label_font.render("Police Agent", True, (0, 0, 0))
-        data_collector_label = label_font.render("Data Collector Agent", True, (0, 0, 0))
+        police_label = label_font.render("Police", True, (0, 0, 0))
+        data_collector_label = label_font.render("Data Collector", True, (0, 0, 0))
         drug_user_label = label_font.render("Drug User", True, (0, 0, 0))
         arrested = label_font.render("Arrested", True, (0, 0, 0))
         last_five_messages = label_font.render("Last 5 Messages", True, (0, 0, 0))
